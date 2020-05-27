@@ -185,7 +185,6 @@ img {
 .container {
   margin: auto;
   width: 80%;
-  border: 3px solid green;
   padding: 10px;
 }
 ul {
@@ -215,14 +214,13 @@ li {
 .header-nav a {
   color: #17A2B8;
 }
-.footer {
+footer {
   width: 100%;
-  border-top: 2px dashed silver;
-  background: #FFEBCD;
+  text-align: center;
 }
-.footer #button {
-  display: flex;
-  justify-content: center;
+footer button {
+  width: 15vw;
+  height: auto;
 }
 .header-section {
   display: flex;
