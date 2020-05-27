@@ -154,23 +154,33 @@ a {
   height: 50px;
   width: 200px;
   margin: 2.5%;
+  background-color: black;
+  color: #17A2B8;
+  font-size: 2rem;
 }
 * {
   box-sizing: border-box;
 }
 html {
   font-size: 62.5%;
+  background-color: #FFFFFF;
 }
 h1 {
   font-size: 10rem;
   color: aliceblue;
   text-shadow: 2px 2px black;
 }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
   text-align: center;
   margin: 2%;
+  color: #17A2B8;
 }
 h4 {
   font-size: 2.5rem;
@@ -197,6 +207,7 @@ li {
   margin: 10px;
   font-size: 2rem;
   list-style-type: circle;
+  color: #17A2B8;
 }
 .header-section {
   display: flex;
@@ -222,12 +233,16 @@ footer {
 }
 footer button {
   width: 15vw;
-  height: auto;
+  height: 10vh;
+  background-color: black;
+  color: #17A2B8;
+  font-size: 2rem;
+  border-bottom: navy solid 2px;
 }
 .header-section {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed blue;
 }
 @media (max-width: 500px) {
   .header-section {
@@ -276,4 +291,7 @@ footer button {
   width: 10%;
   position: relative;
   border-bottom: navy solid 2px;
+  background-color: black;
+  color: #17A2B8;
+  font-size: 2rem;
 }

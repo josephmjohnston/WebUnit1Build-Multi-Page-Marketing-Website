@@ -4,7 +4,7 @@
 
 html {
   font-size: 62.5%;
-  // background-color: midnightblue;
+  background-color: @main-bg;
 }
 
 
@@ -12,13 +12,17 @@ h1 {
   font-size: 10rem;
   color: aliceblue;
   text-shadow: 2px 2px black;
+   @media @mobile {
+     font-size: 5rem;
+   }
 }
 
 h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
   text-align: center;
-  margin: 2%;
+  margin: 2%; 
+  color: @font-color;
 }
 
 h4 {
@@ -52,4 +56,5 @@ li{
   margin: 10px;
   font-size: 2rem;
   list-style-type: circle;
+  color: @font-color;
 }
