@@ -15,14 +15,21 @@
     top: 40%;
     text-align: center;
     width: 60%; 
+
+    @media @mobile {
+        top: 20%;
+      }
+    
+    @media @tablet {
+        top: 20%;
+      }
 }
 
 .login{
     display: flex;
     flex-direction: row;
     button {
-        height: 50px;
-        width: 200px;
+        .size(200px, 50px);
         margin: 2.5%;        
         background-color: black;
         color: @font-color;
